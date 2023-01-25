@@ -27,7 +27,7 @@ class SwordBehavior extends WeaponBehavior {
 class Character {
   fight() {
     this._weapon.useWeapon();
-  }0
+  }
   set weapon(w) {
     this._weapon = w;
   }
